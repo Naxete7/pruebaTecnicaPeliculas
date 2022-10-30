@@ -3,7 +3,7 @@ const sequelize = require('../db/db')
 
 class Prestamo extends Model {}
 
-Alquiler.init({
+Prestamo.init({
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,

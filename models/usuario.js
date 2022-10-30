@@ -35,6 +35,13 @@ Usuario.init({
             len: [1, 100]
         }
     },
+    contraseña: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        validate: {
+            len: [1, 100]
+        }
+    },
 
 })
 
