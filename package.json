@@ -1,10 +1,10 @@
 {
     "name": "pruebatecnicapeliculas",
     "version": "1.0.0",
-    "description": "Prueba tecnica 4",
-    "main": "app.js",
+    "description": "Prueba Tecnica 4 base de datos peliculas y series",
+    "main": "index.js",
     "scripts": {
-        "dev": "nodemon app.js",
+        "dev": "nodemon index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
