@@ -4,7 +4,7 @@ const sequelize = require('../db/db')
 class Pelicula extends Model {}
 
 Pelicula.init({
-    id: {
+    id_pelicula: {
         type: DataTypes.INTEGER,
         primaryKey: true,
         allowNull: false,

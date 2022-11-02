@@ -4,7 +4,7 @@ const sequelize = require('../db/db')
 class Usuario extends Model {}
 
 Usuario.init({
-    id: {
+    id_usuario: {
         type: DataTypes.INTEGER,
         primaryKey: true,
         allowNull: false,

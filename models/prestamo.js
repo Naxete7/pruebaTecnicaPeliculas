@@ -4,7 +4,7 @@ const sequelize = require('../db/db')
 class Prestamo extends Model {}
 
 Prestamo.init({
-    id: {
+    id_prestamo: {
         type: DataTypes.INTEGER,
         primaryKey: true,
         allowNull: false,

@@ -4,7 +4,7 @@ const sequelize = require('../db/db')
 class Serie extends Model {}
 
 Serie.init({
-    id: {
+    id_serie: {
         type: DataTypes.INTEGER,
         primaryKey: true,
         allowNull: false,

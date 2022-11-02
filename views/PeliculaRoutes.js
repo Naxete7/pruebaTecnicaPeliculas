@@ -1,9 +1,9 @@
-const express = require('express')
-const router = express.Router()
+// const express = require('express')
+// const router = express.Router()
 
-const Usuario = require('../models/usuario')
+// const Pelicula = require('../models/pelicula')
 
-const db = require('../db/db')
+// const db = require('../db/db')
 
 
 // CRUD READ
