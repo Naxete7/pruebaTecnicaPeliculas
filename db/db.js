@@ -14,14 +14,13 @@ const sequelize = new Sequelize(
     }
 
     //CONFIG DE LA DB SIN DOTENV
-    // config.development.database,
-    // config.development.username,
-    // config.development.password,
-    // {
-    //   host: config.development.host,
-    //   port: config.development.port,
-    //   dialect: config.development.dialect  
-    // }
+    //     config.development.database,
+    //     config.development.username,
+    //     config.development.password, {
+    //         host: config.development.host,
+    //         port: config.development.port,
+    //         dialect: config.development.dialect
+    //     }
 )
 
 module.exports = sequelize
