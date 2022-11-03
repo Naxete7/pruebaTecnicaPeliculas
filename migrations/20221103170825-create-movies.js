@@ -4,10 +4,10 @@ module.exports = {
     async up(queryInterface, Sequelize) {
         await queryInterface.createTable('movies', {
             id_movies: {
+                type: Sequelize.INTEGER,
                 allowNull: false,
                 autoIncrement: true,
-                primaryKey: true,
-                type: Sequelize.INTEGER
+                primaryKey: true
             },
             title: {
                 type: Sequelize.STRING
@@ -19,7 +19,7 @@ module.exports = {
                 type: Sequelize.DATE
             },
             rank: {
-                type: Sequelize.FLOAT
+                type: Sequelize.INTEGER
             },
             createdAt: {
                 allowNull: false,

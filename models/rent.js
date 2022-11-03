@@ -21,6 +21,7 @@ module.exports = (sequelize, DataTypes) => {
             primaryKey: true,
 
         },
+        date: DataTypes.DATE,
         id_usuario: {
             type: DataTypes.INTEGER,
             references: {

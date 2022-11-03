@@ -29,7 +29,7 @@ module.exports = (sequelize, DataTypes) => {
             },
             genre: DataTypes.STRING,
             date: DataTypes.DATE,
-            rank: DataTypes.FLOAT
+            rank: DataTypes.INTEGER
         },
     }, {
         sequelize,

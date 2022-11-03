@@ -28,7 +28,7 @@ module.exports = (sequelize, DataTypes) => {
                 len: [1, 100]
             },
             date: DataTypes.DATE,
-            next_7_days: DataTypes.BOOLEAN,
+            espisode_7_days: DataTypes.BOOLEAN,
             episodes: DataTypes.INTEGER,
             seasons: DataTypes.INTEGER,
             rank: DataTypes.FLOAT,
