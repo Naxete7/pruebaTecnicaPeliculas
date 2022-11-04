@@ -33,6 +33,15 @@ module.exports = {
             theater: {
                 type: Sequelize.BOOLEAN
             },
+            id_articles: {
+                type: Sequelize.INTEGER,
+                references: {
+                    model: 'article',
+                    key: 'id_article'
+                },
+                onDelete: 'cascade',
+                onUpdate: 'cascade'
+            },
             createdAt: {
                 allowNull: false,
                 type: Sequelize.DATE

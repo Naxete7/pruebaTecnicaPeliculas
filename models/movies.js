@@ -10,8 +10,9 @@ module.exports = (sequelize, DataTypes) => {
          * The `models/index` file will call this method automatically.
          */
         static associate(models) {
-            // define association here
-            movies.belongsTo(models.article)
+
+            movies.belongsTo(models.articles);
+
         }
     }
     movies.init({
@@ -25,11 +26,18 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING,
             allowNull: false,
             validate: {
-                len: [1, 50]
+                len: [1, 100]
             },
             genre: DataTypes.STRING,
             date: DataTypes.DATE,
             rank: DataTypes.INTEGER
+        },
+        id_articles: {
+            type: DataTypes.INTEGER,
+            references: {
+                model: 'article',
+                key: 'id_article'
+            },
         },
     }, {
         sequelize,

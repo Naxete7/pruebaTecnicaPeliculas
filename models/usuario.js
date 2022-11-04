@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
          */
         static associate(models) {
             // define association here
-            usuario.belongsTo(models.roles);
+            usuario.belongsTo(models.rol);
             usuario.hasMany(models.rent);
         }
     }
@@ -25,7 +25,17 @@ module.exports = (sequelize, DataTypes) => {
         name: DataTypes.STRING,
         apellido: DataTypes.STRING,
         email: DataTypes.STRING,
-        password: DataTypes.STRING
+        password: DataTypes.STRING,
+
+
+
+        id_rol: {
+            type: DataTypes.INTEGER,
+            references: {
+                model: 'rol',
+                key: 'id_rol'
+            },
+        },
     }, {
         sequelize,
         modelName: 'usuario',

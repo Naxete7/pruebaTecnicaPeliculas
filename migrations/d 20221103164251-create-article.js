@@ -10,6 +10,15 @@ module.exports = {
                 primaryKey: true
 
             },
+            id_rent: {
+                type: Sequelize.INTEGER,
+                references: {
+                    model: 'rent',
+                    key: 'id_rent'
+                },
+                onDelete: 'cascade',
+                onUpdate: 'cascade'
+            },
             createdAt: {
                 allowNull: false,
                 type: Sequelize.DATE
@@ -17,7 +26,8 @@ module.exports = {
             updatedAt: {
                 allowNull: false,
                 type: Sequelize.DATE
-            }
+            },
+            // },
         });
     },
     async down(queryInterface, Sequelize) {

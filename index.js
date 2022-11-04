@@ -1,11 +1,12 @@
 const express = require('express')
-const { Sequelize } = require('./models')
+const sequelize = require('./db/db')
+const { Sequelize } = require('./models/index')
 const app = express()
 const db = require('./db/db')
     // const router = require('./router')
 
 
-const PORT = 3002
+const PORT = 3007
 
 //middleware
 app.use(express.json())
@@ -18,7 +19,7 @@ app.listen(PORT, () => {
 
     //con sync({force: true}) se sincroniza sequelize con nuestra DB, force hace que pueda sobreescribir tablas
     //con authenticate no sobreescribe y es más ligero, pero también se sincroniza
-    Sequelize.sync({ force: true }).then(() => {
+    sequelize.sync({ force: true }).then(() => {
         console.log("Conectados a la DB")
     }).catch(error => {
         console.log('Se ha producido un error: ' + error)

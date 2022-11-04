@@ -35,6 +35,13 @@ module.exports = (sequelize, DataTypes) => {
             cinema: DataTypes.BOOLEAN,
             theater: DataTypes.BOOLEAN
         },
+        id_articles: {
+            type: DataTypes.INTEGER,
+            references: {
+                model: 'article',
+                key: 'id_article'
+            },
+        },
     }, {
         sequelize,
         modelName: 'series',
