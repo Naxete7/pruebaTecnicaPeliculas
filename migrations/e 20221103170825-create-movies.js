@@ -18,6 +18,9 @@ module.exports = {
             date: {
                 type: Sequelize.DATE
             },
+            poster: {
+                type: Sequelize.STRING,
+            },
             rank: {
                 type: Sequelize.INTEGER
             },
@@ -27,18 +30,9 @@ module.exports = {
                     model: 'article',
                     key: 'id_article'
                 },
-                onDelete: 'cascade',
-                onUpdate: 'cascade'
+
             },
 
-            createdAt: {
-                allowNull: false,
-                type: Sequelize.DATE
-            },
-            updatedAt: {
-                allowNull: false,
-                type: Sequelize.DATE
-            }
         });
     },
     async down(queryInterface, Sequelize) {

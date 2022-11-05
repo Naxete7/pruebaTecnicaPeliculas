@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
         static associate(models) {
             articles.hasOne(models.series)
             articles.hasOne(models.movies)
-            articles.belongsToMany(models.rent, { through: 'articles_rent', foreignKey: 'id_articles' })
+            articles.belongsToMany(models.rent, { through: 'rentarticles', foreignKey: 'id_articles' })
         }
     }
     articles.init({

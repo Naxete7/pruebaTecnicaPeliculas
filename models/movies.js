@@ -10,7 +10,6 @@ module.exports = (sequelize, DataTypes) => {
          * The `models/index` file will call this method automatically.
          */
         static associate(models) {
-
             movies.belongsTo(models.articles);
 
         }
@@ -30,6 +29,10 @@ module.exports = (sequelize, DataTypes) => {
             },
             genre: DataTypes.STRING,
             date: DataTypes.DATE,
+            poster: {
+                type: DataTypes.STRING,
+                len: [1, 300],
+            },
             rank: DataTypes.INTEGER
         },
         id_articles: {

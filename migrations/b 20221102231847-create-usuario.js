@@ -22,22 +22,14 @@ module.exports = {
                 type: Sequelize.STRING
             },
             id_rol: {
-                type: Sequelize.INTEGER,
+                type: Sequelize.STRING,
                 references: {
-                    model: 'roles',
+                    model: 'rols',
                     key: 'id_rol'
                 },
                 onDelete: 'cascade',
                 onUpdate: 'cascade'
-            },
-            createdAt: {
-                allowNull: false,
-                type: Sequelize.DATE
-            },
-            updatedAt: {
-                allowNull: false,
-                type: Sequelize.DATE
-            },
+            }
         });
     },
     async down(queryInterface, Sequelize) {

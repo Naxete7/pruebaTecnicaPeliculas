@@ -15,7 +15,7 @@ module.exports = {
             date: {
                 type: Sequelize.DATE
             },
-            espisode_7_days: {
+            episode_7_days: {
                 type: Sequelize.BOOLEAN
             },
             episodes: {
@@ -23,6 +23,9 @@ module.exports = {
             },
             seasons: {
                 type: Sequelize.INTEGER
+            },
+            poster: {
+                type: Sequelize.STRING,
             },
             rank: {
                 type: Sequelize.FLOAT
@@ -42,14 +45,7 @@ module.exports = {
                 onDelete: 'cascade',
                 onUpdate: 'cascade'
             },
-            createdAt: {
-                allowNull: false,
-                type: Sequelize.DATE
-            },
-            updatedAt: {
-                allowNull: false,
-                type: Sequelize.DATE
-            }
+
         });
     },
     async down(queryInterface, Sequelize) {

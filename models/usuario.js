@@ -30,7 +30,7 @@ module.exports = (sequelize, DataTypes) => {
 
 
         id_rol: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.STRING,
             references: {
                 model: 'rol',
                 key: 'id_rol'
