@@ -1,16 +1,16 @@
-const exprees = require('express');
-const router = express.Router();
+// const express = require('express');
+// const router = express.Router();
 
-const MoviesRoutes = require('./views/MoviesRoutes');
-const ShowsRoutes = require('./views/ShowsRoutes');
-const UsersRoutes = require('./views/UsersRoutes');
-const AuthRoutes = require('./views/AuthRoutes');
-const { authBearerMiddleware, isValidRole } = require("./middlewares/authMiddleware")
+// const MoviesRoutes = require('./views/MoviesRoutes');
+// const SeriesRoutes = require('./views/SeriesRoutes');
+// const UsuarioRoutes = require('./views/UsuariosRoutes');
+// // const AuthRoutes = require('./views/AuthRoutes');
+// // const { authBearerMiddleware, isValidRole } = require("./middlewares/authMiddleware")
 
-router.use('/auth', AuthRoutes);
-router.use('/movies', MoviesRoutes);
-router.use('/shows', ShowsRoutes);
-router.use(authBearerMiddleware)
-router.use('/users', UsersRoutes);
+// // router.use('/auth', AuthRoutes);
+// router.use('/movies', MoviesRoutes);
+// router.use('/series', SeriesRoutes);
+// // router.use(authBearerMiddleware)
+// router.use('/usuarios', UsuariosRoutes);
 
-module.exports = router;
+// module.exports = router;
