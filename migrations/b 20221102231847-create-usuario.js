@@ -9,7 +9,7 @@ module.exports = {
                 autoIncrement: true,
                 primaryKey: true
             },
-            name: {
+            nombre: {
                 type: Sequelize.STRING
             },
             apellido: {
@@ -27,9 +27,8 @@ module.exports = {
                     model: 'rols',
                     key: 'id_rol'
                 },
-                onDelete: 'cascade',
-                onUpdate: 'cascade'
-            }
+
+            },
         });
     },
     async down(queryInterface, Sequelize) {

@@ -27,8 +27,8 @@ module.exports = {
             id_articles: {
                 type: Sequelize.INTEGER,
                 references: {
-                    model: 'article',
-                    key: 'id_article'
+                    model: 'articles',
+                    key: 'id_articles'
                 },
 
             },

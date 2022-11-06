@@ -11,8 +11,8 @@ module.exports = (sequelize, DataTypes) => {
          */
         static associate(models) {
             // define association here
-            // models.Articles.belongsToMany(models.Rent, { through: 'RentArticles' });
-            // models.Rent.belongsToMany(models.Articles, { through: 'RentArticles' });
+            models.articles.belongsToMany(models.rent, { through: 'Rentarticles' });
+            models.rent.belongsToMany(models.articles, { through: 'Rentarticles' });
         }
     }
     rentarticles.init({

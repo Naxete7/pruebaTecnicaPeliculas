@@ -10,16 +10,6 @@ module.exports = {
                 primaryKey: true
 
             },
-            id_rent: {
-                type: Sequelize.INTEGER,
-                references: {
-                    model: 'rent',
-                    key: 'id_rent'
-                },
-                onDelete: 'cascade',
-                onUpdate: 'cascade'
-            },
-
 
         });
     },

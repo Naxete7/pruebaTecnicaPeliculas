@@ -38,8 +38,8 @@ module.exports = (sequelize, DataTypes) => {
         id_articles: {
             type: DataTypes.INTEGER,
             references: {
-                model: 'article',
-                key: 'id_article'
+                model: 'articles',
+                key: 'id_articles'
             },
         },
     }, {

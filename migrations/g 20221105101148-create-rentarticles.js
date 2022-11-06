@@ -18,8 +18,8 @@ module.exports = {
                 primaryKey: true,
                 allowNull: false,
                 references: {
-                    model: 'article',
-                    key: 'id_article'
+                    model: 'articles',
+                    key: 'id_articles'
                 }
             },
 

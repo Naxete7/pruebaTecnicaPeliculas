@@ -23,13 +23,7 @@ module.exports = (sequelize, DataTypes) => {
             primaryKey: true,
             allowNull: false,
         },
-        id_rent: {
-            type: DataTypes.INTEGER,
-            references: {
-                model: 'rent',
-                key: 'id_rent'
-            },
-        },
+
     }, {
         sequelize,
         modelName: 'articles',

@@ -10,7 +10,7 @@ module.exports = {
                 apellido: 'García Pérez',
                 email: 'lugarpe@gmail.com',
                 password: 'pegalu123',
-                id_rol: "Usuarior",
+                id_rol: "usuario",
             },
             {
                 id_usuario: 2,
@@ -18,7 +18,7 @@ module.exports = {
                 apellido: 'Navarro Antolin',
                 email: 'penalo@gmail.com',
                 password: 'penalo123',
-                id_rol: "Usuario",
+                id_rol: "usuario",
             },
             {
                 id_usuario: 3,
@@ -26,7 +26,7 @@ module.exports = {
                 apellido: 'García Garcia',
                 email: 'jogaga@gmail.com',
                 password: 'manu1234',
-                id_rol: "Usuario",
+                id_rol: "usuario",
             },
             {
                 id_usuario: 4,
@@ -34,7 +34,7 @@ module.exports = {
                 apellido: 'Serrano Pons',
                 email: 'guillexsp@hotmail.com',
                 password: 'ruzafa23',
-                id_rol: "Administrador",
+                id_rol: "administrador",
             },
             {
                 id_usuario: 5,
@@ -42,7 +42,7 @@ module.exports = {
                 apellido: 'Dombriz Pérez',
                 email: 'ludope@gmail.com',
                 password: 'bernabeu93',
-                id_rol: "Usuario",
+                id_rol: "usuario",
             },
             {
                 id_usuario: 6,
@@ -50,7 +50,7 @@ module.exports = {
                 apellido: 'Catalá Muñoz',
                 email: 'macamu80@gmail.com',
                 password: 'olivia06',
-                id_rol: "Administrador",
+                id_rol: "administrador",
             },
             {
                 id_usuario: 7,
@@ -58,7 +58,7 @@ module.exports = {
                 apellido: 'García Catalá',
                 email: 'ogaca@gmail.com',
                 password: 'bebe123',
-                id_rol: "Usuario",
+                id_rol: "usuario",
             },
             {
                 id_usuario: 8,
@@ -66,7 +66,7 @@ module.exports = {
                 apellido: 'García Esteban',
                 email: 'susfm@hotmail.com',
                 password: 'fallera09',
-                id_rol: "Usuario",
+                id_rol: "usuario",
             },
             {
                 id_usuario: 9,
@@ -74,7 +74,7 @@ module.exports = {
                 apellido: 'Flors Mancha',
                 email: 'jafloma@hotmail.com',
                 password: 'textturas',
-                id_rol: "Usuario",
+                id_rol: "usuario",
             },
             {
                 id_usuario: 10,
@@ -82,7 +82,7 @@ module.exports = {
                 apellido: 'García Valero',
                 email: 'naxete7@hotmail.es',
                 password: 'xilxes77',
-                id_rol: "Administrador",
+                id_rol: "administrador",
             },
             {
                 id_usuario: 11,
@@ -90,7 +90,7 @@ module.exports = {
                 apellido: 'Barchino García',
                 email: 'labarxi@gmail.com',
                 password: 'daniel15',
-                id_rol: "Usuario",
+                id_rol: "usuario",
             },
             {
                 id_usuario: 12,
@@ -98,7 +98,7 @@ module.exports = {
                 apellido: 'Valero Marin',
                 email: 'mavama@gmail.com',
                 password: 'valero60',
-                id_rol: "Usuario",
+                id_rol: "usuario",
             },
             {
                 id_usuario: 13,
@@ -106,7 +106,7 @@ module.exports = {
                 apellido: 'García Valero',
                 email: 'ninlleti@gmail.com',
                 password: 'vigava93',
-                id_rol: "Usuario",
+                id_rol: "usuario",
             },
             {
                 id_usuario: 14,
@@ -114,7 +114,7 @@ module.exports = {
                 apellido: 'García Pérez',
                 email: 'pegape@hotmail.com',
                 password: 'josefa1987',
-                id_rol: "Usuario",
+                id_rol: "usuario",
             },
             {
                 id_usuario: 15,
@@ -122,7 +122,7 @@ module.exports = {
                 apellido: 'Lopez Pérez',
                 email: 'malope@gmail.com',
                 password: 'disney99',
-                id_rol: "Usuario",
+                id_rol: "usuario",
             },
 
         ], {});
