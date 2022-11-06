@@ -29,7 +29,7 @@ Como vemos en las imagenes de arriba, por un lado esta la carpeta models con tod
 
 Una vez ya creados los modelos pasaremos a migrarlos a la base datos, donde se convertiran en las tablas.
 
-![Captura de pantalla 2022-11-06 222229](https://user-images.githubusercontent.com/109297564/200195852-a0fdc599-6e07-47f0-8765-d68c99a55966.jpg)
+![Captura de pantalla 2022-11-05 114513](https://user-images.githubusercontent.com/109297564/200197400-7a8d6694-ce6c-4b7a-97c7-18e9a41ce844.jpg)
 
 Como vemos en la imagen en las migraciones encontraremos lo que habra dentro de la tabla, en este caso solo tiene un id, pero también podriamos encontrar, nombre, dirección, titulo de pelicula, etc
 
