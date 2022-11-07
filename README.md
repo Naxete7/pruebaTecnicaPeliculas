@@ -64,3 +64,7 @@ Una vez ya realizado todo esto y para comprobar que nuestra base de datos funcio
 
 Por ultimo y para finalizar el proyecto, utilizaremos la pagina railway, para subir nustra base de datos en producción y asi poder acceder a ella con facilidad.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 33ab128a953fa901c4f6d1c96f29c570c20395fe
