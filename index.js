@@ -3,14 +3,14 @@ const sequelize = require('./db/db')
 const { Sequelize } = require('./models/index')
 const app = express()
 const db = require('./db/db')
-const router = require('./router')
+    // const router = require('./router')
 
 
-const PORT = 3005
+const PORT = 3007
 
 //middleware
 app.use(express.json())
-app.use(router)
+    // app.use(router)
 
 
 //Conexión con el servidor
